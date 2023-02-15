@@ -16,7 +16,7 @@ class time:
             mn = mn+1
         if mn > 60:
             mn = mn-60
-            h = h+1
+            hr = hr+1
         print("Time is:", hr, ":", mn, ":", sec)
 object1 = time()
 object2 = time()
